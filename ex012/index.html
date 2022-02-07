@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex006/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(211, 243, 243);
+        }
+        main {
+            background-color: rgb(211, 243, 243);
+            margin:20px;
+            padding-bottom: 30px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <main>
+        <h1>Inserindo Vídeos hospedados localmente</h1>
+        <p>Este vídeo está hospedado no meu préprio servidor</p>
+        <video width="600" controls loop poster="imagens/Preto e Branco Minimalismo Vlogueiro Vlog Arte de Encerramento para Youtube.jpg">
+            <source src="midia/meu-video-p.mp4" type="video/mp4">
+            <source src="midia/meu-video-p.m4v" type="video/mp4">
+            <source src="midia/meu-video-p.webm" type="video/webm">
+            <source src="midia/meu-video-p.ogv" type="video/ogg">
+            <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+        </video>
+        <br>
+        <h1>Inserindo vídeos do Youtube.</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <footer>
+        :)
+    </footer>
+</body>
+</html>

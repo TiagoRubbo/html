@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(127, 153, 170, 0.534);
+            margin: 0px;
+        }
+        header{
+            background-color: black;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.500);
+            border-radius: 10px 20px 30px 40px
+        }
+        nav{
+            background-color: rgb(129, 128, 128);
+            padding: 3px;
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+        }
+        nav > a{
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 1px 30px 1px 1px;
+            border: 2px;
+            padding: 1px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightskyblue;
+            text-decoration-color: red;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 10px 0px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+            margin-left: 5px;
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+        }
+        article > aside{
+            background-color: rgb(189, 186, 186);
+        }
+        h1{
+            font-size: 40px;
+            font-family: cursive;
+            margin-left: 20px;
+            color: white;
+            display: inline-block;
+            background-color: black;
+            width: max-content;
+            border-style: solid;
+            border-color: red;
+            border-radius: 25px;
+            padding: 5px;
+        }
+        h1:hover{
+            display: inline-block;
+            background-color: white;
+            color: black;
+            width: max-content;
+            border-style: solid;
+            border-color: lightskyblue;
+            border-radius: 25px;
+            padding: 5px;
+        }
+        h2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h2:hover{
+            color: darkred;
+        }
+        .sorrizo{
+            color: darkgoldenrod;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        span{
+            color: lightblue;
+        }
+        span:hover{
+            color: rgb(255, 0, 0);
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(83, 81, 78);
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello World!</h1>
+        <nav>
+            <a href="caixa01.html">Sobre mim</a>
+            <a href="caixa02.html">Noticias</a>
+            <a href="caixa03.html">Imagens</a>
+            <a href="#">Vídeos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>8<sup>a</sup> maravilha do mundo!</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre mim <span class="sorrizo">:)</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, minus atque? Nobis, ab praesentium. Cupiditate sed, aperiam ipsa praesentium nisi delectus ad amet est, nesciunt beatae corporis rerum ipsum voluptatem.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis ipsa perferendis blanditiis quo, enim soluta cupiditate voluptatum tempore sapiente deleniti aliquid eveniet minima corrupti laboriosam omnis. At praesentium itaque placeat.</p>
+                <aside>
+                    <p>Artigo escrito por Tiago rubbo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <span class="tiago">Tiago Rubbo</span></p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

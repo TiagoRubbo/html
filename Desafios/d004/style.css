@@ -1,0 +1,28 @@
+@charset "utf-8";
+li.a::before{
+    content: '\1F611\00a0';
+}
+li.b::before{
+    content: '\1F60F\00a0';
+}
+li.c::before{
+    content: '\1F610\00a0';
+}
+li.d::before{
+    content: '\1F596\00a0';
+}
+li.e::before{
+    content: '\1F595\00a0';
+}
+li.f::before{
+    content: '\1F44A\00a0';
+}
+li.g::before{
+    content: '\1F409\00a0';
+}
+li.h::before{
+    content: '\1F996\00a0';
+}
+li.i::before{
+    content: '\1F984\00a0';
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+        }
+        ul{
+            font-size: 20px;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: darkorchid;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        .especial{
+            background-color:lightgray;
+        }
+        .especial:hover{
+            background-color: rgba(86, 239, 245, 0.884);
+        }
+        .especial::before{
+            content: '✌';
+            color:black;
+        }
+        .especial::after{
+            content: '☚';
+        }
+        .insta{
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blanc">Repositório do Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blanc">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blanc">Site do Curso em video</a></li>
+    </ul>
+    <h2>meus links</h2>
+    <ul class="insta">
+        <li><a href="https://www.instagram.com/mr.rubbo" target="_blanc" class="especial">Meu Instagram</a></li>
+    </ul>
+</body>
+</html>
