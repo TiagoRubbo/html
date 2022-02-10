@@ -10,12 +10,12 @@
 }
 
 :root{
-    --fonte-titulo: 'PassionOne', cursive;
-    --fonte-texto: 'Sriracha', cursive;
+    --fonte1: 'verdana', Geneva, Tahoma, sans-serif
 }
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 header{
     background-color: black;
@@ -35,4 +35,16 @@ header a{
 }
 main{
     font-family: var(--fonte-texto);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
 }
